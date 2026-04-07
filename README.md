@@ -1,4 +1,4 @@
-# [Project Name] - Portfolio Landing Page
+# Modern Portfolio Landing Page
 
  A high-performance, mobile-first landing page for a modern SaaS dashboard.
 
