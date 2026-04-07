@@ -1,16 +1,29 @@
-# React + Vite
+# [Project Name] - Portfolio Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ A high-performance, mobile-first landing page for a modern SaaS dashboard.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+https://a-modern-light-dark-mode-landing-pa.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
+![alt text](screenshot.PNG)
+![alt text](<Capture 5.PNG>)
 
-## React Compiler
+## 🚀 Features
+* *Responsive Design:* Optimized for all screen sizes using Tailwind breakpoints.
+* *Semantic HTML:* Fully accessible structure for screen readers and SEO that scored 92 in SEO and 100 in accessibility on Lighthouse.
+* *Smooth Navigation:* Integrated smooth-scroll for a seamless user experience.
+* *Performance Focused:* Achieving 100/100 on Lighthouse audits.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+* *Frontend:* React, Tailwind CSS
+* *Build Tool:* Vite
+* *Deployment:* [Vercel / GitHub Pages]
 
-## Expanding the ESLint configuration
+## 💻 Getting Started
+ Go and check the Clone and repository: git clone :
+ (https://github.com/abdulwasi-coder/A-modern-light-dark-mode-Landing-Page)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🧠 What I Learned
+During this project, I focused on improving my *Tailwind CSS* efficiency and ensuring the site follows *Semantic HTML* standards for better SEO.
