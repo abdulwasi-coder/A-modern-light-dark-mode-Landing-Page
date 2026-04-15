@@ -1,15 +1,22 @@
-import React from 'react'
+import { useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 const login = () => {
   const navigation= useNavigate()
+  const userref = useRef(null)
+  const click = ()=>{
+    userref.current.focus()
+  }
+
+  useEffect(()=>click(), [])
+
   return (
-    <section className='w-screen h-screen flex items-center bg-linear-to-br from-emerald-200 via-teal-200 to-cyan-200 dark:bg-linear-to-l dark:from-slate-400  dark:via-slate-600 dark:to-slate-900 justify-center fixed top-0 right-0 left-0 bottom-0 '>
+    <section className=' flex items-center bg-linear-to-br from-emerald-200 via-teal-200 to-cyan-200 dark:bg-linear-to-l dark:from-slate-400  dark:via-slate-600 dark:to-slate-900 justify-center w-screen h-screen '>
       <form action="" className='dark:bg-slate-600 flex flex-col justify-center px-4 w-75 sm:w-90 h-100 rounded-2xl  bg-white gap-2 ' >
         <h1 className=' m-8 mx-0 font-bold dark:text-slate-300 text-center text-slate-900 text-3xl'>Login to continue</h1>
         <div className='flex flex-col gap-1'>
           <label htmlFor="email" className='text-slate-700 dark:text-slate-400  font-semibold '>Email</label>
-        <input type="email" className='px-1  py-2 rounded-xl border border-slate-300 text-slate-400 focus:border-indigo-500 dark:focus:border-indigo-400 focus:ring-4 focus:ring-indigo-500/10 border-offset-2 outline-none ' placeholder='name@mail.com' />
+        <input type="email" ref={userref} className='px-1 py-2 invalid:ring-1 required:focus:ring-2 required:focus:ring-green-500/20 required:focus:border-2 required:focus:border-green-500 invalid:focus:ring-red-500/20 invalid:focus:border-red-500/50  invalid:focus:borders-pink-500  disabled:border-yellow-300 disabled:focus:ring-1 disabled:focus:ring-yellow-500/20 rounded-xl border border-slate-300 text-slate-400 focus:border-indigo-500 dark:focus:border-indigo-400 focus:ring-4 focus:ring-indigo-500/10 border-offset-2 outline-none ' placeholder='name@mail.com' />
         </div>
         <div className='flex flex-col gap-1'>
           <label htmlFor="password" className='text-slate-700 dark:text-slate-400 font-semibold '>Password</label>
