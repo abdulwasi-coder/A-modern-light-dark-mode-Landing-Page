@@ -18,7 +18,7 @@ const heroSection = () => {
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full  md:w-1/2 w-6/6">
-                    <img className="object-cover h-50 mx-auto w-80 md:h-auto md:w-full rounded" fetchPriority='high' loading='eager' alt="a person coding" src={person}/>
+                    <link as='image' className="object-cover h-50 mx-auto w-80 md:h-auto md:w-full rounded" fetchPriority='high' loading='eager' alt="a person coding" href={person}/>
                    
                 </div>
             </div>
