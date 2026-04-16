@@ -17,7 +17,7 @@ const heroSection = () => {
                 </div>
                 <picture className="lg:max-w-lg md:w-1/2 w-6/6">
                     <source media='(min-width: 768px)' srcSet='https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
-                    <img className="h-[100%] w-[100%] " loading='eager' fetchPriority='high' alt="hero image" src='https://images.unsplash.com/photo-1551434678-e076c223a692?q=40&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=600&fm=webp.' />
+                    <img className="h-80 md:h-100 w-200 object-contain " loading='eager' fetchPriority='high' alt="hero image" src='https://images.unsplash.com/photo-1551434678-e076c223a692?q=40&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=600&fm=webp.' />
                 </picture>
 
             </div>
