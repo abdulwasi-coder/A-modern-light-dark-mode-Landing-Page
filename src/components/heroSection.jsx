@@ -15,10 +15,10 @@ const heroSection = () => {
                         <button className="ml-4 inline-flex cursor-pointer border-white/60 hover:scale-105 font-semibold  dark:text-gray-200 text-white bg-linear-to-br from-emerald-600 via-teal-600 to-cyan-600 dark:bg-linear-to-r dark:from-slate-600 dark:via-slate-400 dark:to-slate-600 border py-2 px-6 focus:outline-none  rounded focus:ring-2  ring-offset-2 transition-colors text-lg" onClick={() => navigation('/login')}>Login</button>
                     </div>
                 </div>
-                    <picture className="lg:max-w-lg md:w-1/2 w-6/6">
-                        <source media='(min-width: 768px)' srcSet='https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
-                        <img className="h-auto w-full " loading='eager' fetchPriority='high' alt="hero image" src='https://images.unsplash.com/photo-1551434678-e076c223a692?q=40&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=600&fm=webp.' />
-                    </picture>
+                <picture className="lg:max-w-lg md:w-1/2 w-6/6">
+                    <source media='(min-width: 768px)' srcSet='https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
+                    <img className="h-[100%] w-[100%] " loading='eager' fetchPriority='high' alt="hero image" src='https://images.unsplash.com/photo-1551434678-e076c223a692?q=40&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=600&fm=webp.' />
+                </picture>
 
             </div>
         </main>
