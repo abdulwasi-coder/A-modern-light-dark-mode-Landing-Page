@@ -1,5 +1,6 @@
 import logo from '../assets/logo.svg'
 import { NavLink, useNavigate } from 'react-router-dom'
+import { FaArrowRight } from "react-icons/fa6";
 
 
 const header = () => {
@@ -20,10 +21,8 @@ const header = () => {
             <li className="mr-5 cursor-pointer hover:scale-105 hover:text-gray-900"><NavLink to='/'>Contact</NavLink></li>
           </ul>
         </nav>
-        <button aria-label='a button for signing up' className="inline-flex border border-white/60 hover:animate-none hover:scale-105 items-center font-semibold  bg-linear-to-br from-emerald-600 via-teal-600 to-cyan-600 dark:bg-linear-to-r dark:from-slate-600 dark:via-slate-400 dark:to-slate-600 dark:text-gray-200 cursor-pointer  py-1.5 px-3 focus:outline-none hover:bg-indigo-700 text-white rounded text-base mt-4 md:mt-0" onClick={() => navigation('/signup')}>Sign Up
-          <svg fill="none" stroke="currentColor" stroke-width="2" className="w-4 h-4 ml-1 " viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
+        <button aria-label='a button for signing up' className="inline-flex border border-white/60 hover:animate-none hover:scale-105 justify-center items-center font-semibold  bg-linear-to-br from-emerald-600 via-teal-600 to-cyan-600 dark:bg-linear-to-r dark:from-slate-600 dark:via-slate-400 dark:to-slate-600 dark:text-gray-200 cursor-pointer  py-1.5 px-3 focus:outline-none hover:bg-indigo-700 text-white rounded text-base mt-4 md:mt-0" onClick={() => navigation('/signup')}>Sign Up
+          <FaArrowRight className="w-4 h-4 ml-1 strok-2 "/>
         </button>
       </div>
     </header>
