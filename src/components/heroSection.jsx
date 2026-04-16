@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 const heroSection = () => {
     const navigation = useNavigate()
     const person = 'https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    const secondP = 'https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=600&q=50&fm=webp.'
     return (
         <main className=" bg-linear-to-br from-emerald-200 via-teal-200 to-cyan-200 dark:bg-linear-to-l dark:from-slate-400  dark:via-slate-600 dark:to-slate-900">
             <div className="container mx-auto flex px-5 pb-2 py-16 md:flex-row flex-col items-center">
@@ -18,8 +19,8 @@ const heroSection = () => {
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full  md:w-1/2 w-6/6">
-                    <link as='image' className="object-cover h-50 mx-auto w-80 md:h-auto md:w-full rounded" fetchPriority='high' loading='eager' alt="a person coding" href={person}/>
-                   
+                    <img className="object-cover h-50 hidden md:block mx-auto w-80 md:h-auto md:w-full rounded" fetchPriority='high' loading='eager' alt="a person coding" src={person}/>
+                    <img src={secondP} className='object-cover h-50 mx-auto w-80 sm:hidden' alt="man coding" />
                 </div>
             </div>
         </main>
