@@ -8,9 +8,9 @@ const Landingpage = () => {
   return (
     <div className='scroll-smooth'>
       <HeroSection />
-      <Suspense fallback={<div className='h-20 animate-pulse bg-gray-100' />}>
-      <Features />
-      <Projects />
+      <Suspense fallback={<div className='h-20 animate-pulse bg-gray-500' />}>
+        <Features />
+        <Projects />
       </Suspense>
     </div>
   )

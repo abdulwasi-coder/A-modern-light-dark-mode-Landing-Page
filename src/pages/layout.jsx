@@ -1,13 +1,20 @@
 import React from 'react'
 import Header from '../components/header'
-import Footer from '../components/footer'
 import { Outlet } from 'react-router-dom'
+import { lazy } from 'react'
+import { Suspense } from 'react'
+const Footer = lazy(() => import('../components/footer'))
+
+
 const layout = () => {
   return (
     <>
-    <Header/>
-    <Outlet/>
-    <Footer/>
+      <Header />
+      <Outlet />
+      <Suspense fallback={<div className='h-20 animate-pulse bg-gray-500' />}>
+        <Footer />
+      </Suspense>
+
     </>
   )
 }
