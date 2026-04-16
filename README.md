@@ -8,10 +8,12 @@ https://a-modern-light-dark-mode-landing-pa.vercel.app/
 ## 📸 Preview
 ![alt text](screenshot.PNG)
 ![alt text](<Capture 5.PNG>)
+![alt text](score.PNG)
+![alt text](<score2.PNG>)
 
 ## 🚀 Features
 * *Responsive Design:* Optimized for all screen sizes using Tailwind breakpoints.
-* *Semantic HTML:* Fully accessible structure for screen readers and SEO that scored 92 in SEO and 100 in accessibility on Lighthouse.
+* *Semantic HTML:* Fully accessible structure for screen readers and SEO that scored 100 in SEO and 100 in accessibility on Lighthouse.
 * *Smooth Navigation:* Integrated smooth-scroll for a seamless user experience.
 * *Performance Focused:* Achieving 100/100 on Lighthouse audits.
 
